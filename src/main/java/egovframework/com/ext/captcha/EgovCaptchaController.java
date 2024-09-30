@@ -40,6 +40,7 @@ public class EgovCaptchaController {
 
 	/**
 	 * Captcha 사용자 입력 페이지
+	 * 
 	 * @param session
 	 * @param model
 	 * @return
@@ -52,6 +53,7 @@ public class EgovCaptchaController {
 
 	/**
 	 * Captcha 입력값 검증 결과 페이지
+	 * 
 	 * @param session
 	 * @param model
 	 * @param captcha
@@ -114,7 +116,7 @@ public class EgovCaptchaController {
 	}
 
 	/**
-	 * 임의의 문자열을 인자로 받은 길이 만큼 생성
+	 * 인자로 받은 길이만큼 임의의 문자열을 생성
 	 * 
 	 * @param length 생성하려는 문자열 길이
 	 * @return length 인자의 길이만큼 생성된 임의의 문자열
